@@ -17,7 +17,7 @@ public class DroolsTest {
 
 	public static void main(String[] args) {
 		StringBuilder sb1 = new StringBuilder();
-		sb1.append("  package com.fei.drools ");
+		sb1.append("  package com.guo.drools ");
 		sb1.append("  import com.guo.doorls.MessageDrools  ");
 		sb1.append("  rule ");
 		sb1.append(" \"rule1\" ");
@@ -28,7 +28,7 @@ public class DroolsTest {
 		sb1.append(" end ");
 
 		StringBuilder sb2 = new StringBuilder();
-		sb2.append("  package com.fei.drools ");
+		sb2.append("  package com.guo.drools ");
 		sb2.append("  import com.guo.doorls.MessageDrools  ");
 		sb2.append("  rule ");
 		sb2.append(" \"rule2\" ");
@@ -37,8 +37,8 @@ public class DroolsTest {
 		sb2.append(" then ");
 		sb2.append(" System.out.println( 2+\":\"+myMessageDrools ); ");
 		sb2.append(" end ");
-        System.out.println(sb1.toString());
-        System.out.println(sb2.toString());
+        System.out.println("规则一: "+sb1.toString());
+        System.out.println("规则二: "+sb2.toString());
         StatefulKnowledgeSession kSession = null;  
         try {  
             KnowledgeBuilder kb = KnowledgeBuilderFactory.newKnowledgeBuilder();  
