@@ -1,0 +1,5 @@
+0427
+	利用map进行参数的动态加载,调用规则(现在规则为字符串拼接,可以利用前台拼接实现用户动态话修改,添加规则)实现动态加载
+	例子为:com.guo.doorls.DroolsTest
+	此例在参考:https://blog.csdn.net/dream_broken/article/details/52150266
+	侵权必删
